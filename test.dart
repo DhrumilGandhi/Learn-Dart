@@ -1,5 +1,7 @@
+import 'dart:io';
+
 main() {
-  var name = "Dhrumil";
-  var lastName = "Gandhi";
-  print(name + " " + lastName);
+  stdout.writeln("What is your name ..??");
+  String name = stdin.readLineSync();
+  print("My name is $name");
 }
